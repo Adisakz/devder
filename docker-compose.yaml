@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   wordpress:
-    image: wordpress:6.4.3
-    platform: linux/arm64
+    image: wordpress
+    restart: always
     ports:
       - "80:80"
     environment:
@@ -15,8 +15,7 @@ services:
       - ./html:/var/www/html
 
   db:
-    image: mysql:5.7.43
-    platform: linux/arm64
+    image: mysql:8.0
     restart: always
     environment:
       MYSQL_DATABASE: wordpress
@@ -27,8 +26,7 @@ services:
       - db_data:/var/lib/mysql
 
   phpmyadmin:
-    image: arm64v8/phpmyadmin
-    platform: linux/arm64
+    image: phpmyadmin
     restart: always
     ports:
       - "8080:80"
