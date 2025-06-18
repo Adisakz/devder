@@ -29,13 +29,13 @@ $_SERVER['HTTPS'] = "on";
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'db' );
+define( 'DB_USER', 'wordpress' );
 
 /** Database password */
 define( 'DB_PASSWORD', '@Film40110' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
