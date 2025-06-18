@@ -1,4 +1,5 @@
-<?php//Begin Really Simple Security key
+<?php
+//Begin Really Simple Security key
 define('RSSSL_KEY', '47KoRpvpW29dptBt603L0MpHH3cwCdAZ56Pd5nUQLAiUh9s6v4kUbs5L2IFgcivA');
 //END Really Simple Security key
 
@@ -28,7 +29,7 @@ $_SERVER['HTTPS'] = "on";
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'wd' );
+define( 'DB_USER', 'wordpress' );
 
 /** Database password */
 define( 'DB_PASSWORD', '@Film40110' );
