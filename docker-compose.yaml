@@ -27,7 +27,7 @@ services:
       - db_data:/var/lib/mysql
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:5.2.1
+    image: arm64v8/phpmyadmin
     platform: linux/arm64
     restart: always
     ports:
