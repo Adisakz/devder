@@ -29,7 +29,7 @@ $_SERVER['HTTPS'] = "on";
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'wordpress' );
+define( 'DB_USER', 'db' );
 
 /** Database password */
 define( 'DB_PASSWORD', '@Film40110' );
